@@ -208,7 +208,7 @@ div #Hospital_List_Background ul li
   height: 60%;
   margin: 0 auto;
   border-radius: 23px;
-  
+
 }
 
 #Medical_Links
@@ -233,7 +233,7 @@ a:hover
   flex: 1;
   background-color: #64AADB;
   border-radius: 23px;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 1.0);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, .5);
 }
 
 #Red_Cross
@@ -241,7 +241,7 @@ a:hover
   flex:1;
   background-color: #64AADB;
   border-radius: 23px;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 1.0);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, .5);
 }
 
 #Red_Cross_Link
@@ -286,4 +286,128 @@ a:hover
 #web_md_subdiv
 {
   text-align: center;
+}
+
+#Survivor_Section
+{
+  margin-top: 2em;
+}
+
+#Survivor_title_div
+{
+  margin: 0 auto;
+}
+
+#Survivor_Subtitle
+{
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+#Intro_Paragraph_div
+{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1em;
+}
+
+#Intro_Paragraph
+{
+  font-size: 2em;
+}
+
+.Comment_bubble_div
+{
+  margin-top: 1em;
+  margin-left: 4em;
+  margin-right: 4em;
+  display: inline-block;
+  justify-content: space-between;
+
+}
+
+.bubble
+{
+  position: relative;
+  font-size: 2vh;
+  line-height: 3vh;
+  width: 40%;
+  background:#68B1FC;
+  border-radius: 33px;
+  padding: 24px;
+  text-align: center;
+  color: #000000;
+
+
+}
+
+.right_bubble
+{
+  position: relative;
+  font-size: 2vh;
+  line-height: 3vh;
+  width: 40%;
+  background:#EB8A99;
+  border-radius: 33px;
+  padding: 24px;
+  text-align: center;
+  color: #000000;
+
+}
+
+.bubble-bottom-left::before
+{
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #68B1FC;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #68B1FC;
+  border-bottom: 20px solid transparent;
+  left: 32px;
+  bottom: -24px;
+}
+
+.bubble-bottom-right::before
+{
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 12px solid transparent;
+  border-right: 24px solid #EB8A99;
+  border-top: 12px solid #EB8A99;
+  border-bottom: 20px solid transparent;
+  right: 32px;
+  bottom: -24px;
+}
+
+#Bubble_One
+{
+  margin-bottom: 1em;
+  font-size: 3vh;
+}
+
+#Bubble_Two
+{
+  margin-bottom: 1em;
+  margin-right: 0px;
+  margin-left: auto;
+  font-size: 3vh;
+}
+
+#Bubble_Three
+{
+  margin-bottom: 1em;
+  font-size: 3vh;
+}
+
+#Bubble_Four
+{
+  margin-bottom: 1em;
+  margin-right: 0px;
+  margin-left: auto;
+  font-size: 3vh;
 }
