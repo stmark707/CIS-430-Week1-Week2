@@ -443,7 +443,8 @@ div #Step_List_Background ol li
   padding-top: 1vh;
   margin-top: 1vh;
   width: 70%;
-  margin-left: 3em;
+  margin-left: 3em; /*Will investigate further*/
+  margin-right: 0px;
 }
 
 .List_Items
@@ -452,4 +453,114 @@ div #Step_List_Background ol li
   display: inline-block;
   justify-content: center;
   text-align: center;
+}
+
+
+/*CSS ANIMATION FOR KEY TERMS*/
+
+.Key_Terminology_Div
+{
+  margin-top: 4em;
+}
+
+#Terminology_Title_Div
+{
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+
+.First_Row_Keyterms
+{
+  display: flex;
+  column-gap: 1em;
+  justify-content: center;
+  font-size: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.Second_Row_Keyterms
+{
+  display: flex;
+  column-gap: 1em;
+  justify-content: center;
+  font-size: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.Third_Row_Keyterms
+{
+  display: flex;
+  column-gap: 1em;
+  justify-content: center;
+  font-size: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.back_row_one,.back_row_three,.back_row_two
+{
+  text-align: center;
+}
+
+.front_row_one,.front_row_two, .front_row_three
+{
+  text-align: center;
+  font-family: 'Londrina Shadow', cursive;
+  font-weight: bolder;
+}
+
+.card
+{
+  background-color: #64AADB;
+  border-radius: 23px;
+  margin-bottom: 1em;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.Content_01
+{
+  flex:1;
+  background-color:#EB8A99;
+}
+
+.Content_02
+{
+  flex:1;
+}
+
+.Content_03
+{
+  flex:1;
+  background-color:#EB8A99;
+}
+
+.Content_04
+{
+  flex:2;
+}
+
+.Content_05
+{
+  flex:2;
+}
+
+.Content_06
+{
+  flex:1;
+  background-color:#EB8A99;
+}
+
+.Content_07
+{
+  flex:1;
+}
+
+.Content_08
+{
+  flex:1;
+  background-color:#EB8A99;
 }
