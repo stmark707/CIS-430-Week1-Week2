@@ -411,3 +411,45 @@ a:hover
   margin-left: auto;
   font-size: 3vh;
 }
+
+.Seven_Steps_Section
+{
+  margin-top: 4em;
+  margin: 0 auto;
+}
+
+#Seven_Steps_Title
+{
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+#Step_List_Background
+{
+
+  width: 60%;
+  height: 100%;
+  margin-top: 3em;
+  border-radius: 23px;
+  background-color: #64AADB;
+  padding-top: 2vh;
+  margin: 0 auto;
+
+}
+
+div #Step_List_Background ol li
+{
+  padding-top: 1vh;
+  margin-top: 1vh;
+  width: 70%;
+  margin-left: 3em;
+}
+
+.List_Items
+{
+  font-size: 2em;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
