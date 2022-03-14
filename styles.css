@@ -730,3 +730,88 @@ div #Rider_Safety_Content_Background ol li
 {
   background-color: #64AADB;
 }
+
+#FAQ_Title
+{
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+
+
+.odd_Number
+{
+  width: 60%;
+  height: 100%;
+  margin-top: 3em;
+  border-radius: 23px;
+  background-color: #EB8A99;
+  padding-top: 2vh;
+  margin: 0 auto;
+  margin-bottom: 4em;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.even_Number
+{
+  width: 60%;
+  height: 100%;
+  margin-top: 3em;
+  border-radius: 23px;
+  background-color: #64AADB;
+  padding-top: 2vh;
+  margin: 0 auto;
+  margin-bottom: 4em;
+  display:flex;
+  align-items: center;
+}
+
+.FAQ_content
+{
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.FAQ_Content
+{
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#FAQ_List_Div
+{
+  display: grid;
+}
+
+#Above_List
+{
+  margin-bottom: 0;
+}
+
+div #FAQ_List_Div ul li
+{
+  padding-top: 2vh;
+  list-style-type:circle;
+  margin-left: 1em;
+}
+
+div #FAQ_List_Div li
+{
+  float:left;
+  clear: left;
+  text-align: center;
+}
+
+
+#FAQ_List
+{
+  font-size: 2em;
+  padding-top: .5em;
+
+}
