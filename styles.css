@@ -635,3 +635,98 @@ div #Step_List_Background ol li
   font-size: 3vh;
   margin-bottom: 2em;
 }
+
+
+#Hospital_List_Background_Event_Page
+{
+  background-color: #64AADB;
+  width: 100%;
+  height: 50%;
+  margin-top: 3em;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+
+}
+
+div #Hospital_List_Background_Event_Page ul li
+{
+  padding-top: 1vh;
+  list-style-type:upper-roman;
+  margin-left: 2em;
+
+}
+
+.Hospital_List_Event_Page
+{
+  font-size: 2em;
+
+}
+
+#Monthly_ride_title
+{
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#Monthly_ride_Background
+{
+  background-color: #EB8A99;
+  width: 90%;
+  height: 60%;
+  margin: 0 auto;
+  border-radius: 23px;
+  margin-bottom: 4em;
+}
+
+.Monthly_ride_content
+{
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+#Rider_Safety_Title
+{
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+
+#Rider_Safety_Content_Background
+{
+
+  width: 60%;
+  height: 100%;
+  margin-top: 3em;
+  border-radius: 23px;
+  background-color: #64AADB;
+  padding-top: 2vh;
+  margin: 0 auto;
+  margin-bottom: 4em;
+
+}
+
+div #Rider_Safety_Content_Background ol li
+{
+  padding-top: 1vh;
+  margin-top: 1vh;
+  width: 70%;
+  margin-left: 3em; /*Will investigate further*/
+  margin-right: 0px;
+}
+
+#embedded_contact_us
+{
+  font-size: 1em;
+  color: black;
+}
+
+#embedded_contact_us:hover
+{
+  background-color: #64AADB;
+}
